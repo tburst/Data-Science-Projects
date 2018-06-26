@@ -13,5 +13,5 @@ Kann ein Machinelearning-Modell nur anhand der verwendeten Wörter lernen, Texte
 
 ## Sentiment-Dict
 
-Gibt es eindeutig negative oder positive Wörter im politischen Sprachgebrauch? Durch ein Word2Vec-Modell
+Gibt es eindeutig negative oder positive Wörter im politischen Sprachgebrauch? Durch ein Word2Vec-Modell werden Wörter hinsichtlich ihrer Bedeutung im politischen Kontext abgebildet. Dank zweier Listen vordefinierter Sentimentwörter kann ein SVM-Modell lernen, das Sentiment eines Wortes anhand dessen Wordvektors vorherzusagen. Das Modell wird dann genutzt um neue positive/negative Wörter im politischen Sprachgebrauch zu finden und eigene Sentimentlisten zu erstellen. Abschließend wird diese neue Sentimentressource zur Analyse der Sprache im Deutschen Bundestag verwendet.
 
