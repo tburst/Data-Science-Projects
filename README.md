@@ -11,7 +11,11 @@ Falls die Karten nicht dargestellt werden findet sich eine alternative Version [
 
 Kann ein Machinelearning-Modell nur anhand der verwendeten Wörter lernen, Texte einer politischen Richtung zuzuordnen? Mittels eines selbsterstellten Textkorpus aus Bundestagsreden der Wahlperioden 14-18 wurde einem SVM-Modell anhand von Uni- und Bigrams beigebracht, die politische Richtung des Redners zu identifizieren. Im Anschluss daran wird die Generalisierbarkeit des Modells bei Wahlprogrammen und Zeitungsartikeln getestet.
 
+Direkter [Link](https://github.com/tburst/Projekte/blob/master/Klassifikation%20politischer%20Sprache/Klassikfikation_politischer_Sprache.ipynb)
+
 ## Sentiment-Dict
 
 Gibt es eindeutig negative oder positive Wörter im politischen Sprachgebrauch? Durch ein Word2Vec-Modell werden Wörter hinsichtlich ihrer Bedeutung im politischen Kontext abgebildet. Dank zweier Listen vordefinierter Sentimentwörter kann ein SVM-Modell lernen, das Sentiment eines Wortes anhand dessen Wordvektors vorherzusagen. Das Modell wird dann genutzt um neue positive/negative Wörter im politischen Sprachgebrauch zu finden und eigene Sentimentlisten zu erstellen. Abschließend wird diese neue Sentimentressource zur Analyse der Sprache im Deutschen Bundestag verwendet.
+
+Direkter [Link](https://github.com/tburst/Projekte/blob/master/Sentiment-Dict/Erstellung_eines_Sentiment_Dicts.ipynb)
 
