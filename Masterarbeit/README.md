@@ -35,6 +35,10 @@ Enthält die Namen von 188 Ländern der Welt. Wird für die Bildung der Wortvekt
 
 ## Code
 
+#### Bilden der Wortvektormodelle.ipynb
+
+Code der verwendet wurde, um die Wortvektormodelle zu bilden.
+
 #### Output der Ländervektoren.ipynb
 
 Generiert aus den fertig gebildeten Wortvektormodellen die drei Ordner "Country_Vectors", "Country_Vectors_Similarity" und "Country_Vectors_Cluster" mitsamt aller Csv-Dateien.
@@ -43,7 +47,5 @@ Generiert aus den fertig gebildeten Wortvektormodellen die drei Ordner "Country_
 
 Code der verwendet wurde, um die Visualisierungen der Arbeit zu erstellen. Jede Grafik wird auf Basis der drei "Wortvektordaten" Ordner gebildet, die originalen Word2vec-Modelle sind nicht notwendig. Da in github teilweise Probleme mit der Darstellung von Grafiken auftauchen, wird empfohlen, das Notebook über den <a href="https://nbviewer.jupyter.org/github/tburst/Projekte/blob/master/Masterarbeit/Replikation%20der%20Visualisierungen.ipynb " target="_blank">nbviewer</a> aufzurufen
 
-#### Bilden der Wortvektormodelle.ipynb
 
-Code der verwendet wurde, um die Wortvektormodelle zu bilden.
 
