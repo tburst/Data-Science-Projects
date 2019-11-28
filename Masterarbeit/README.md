@@ -45,7 +45,7 @@ Generiert aus den fertig gebildeten Wortvektormodellen die drei Ordner "Country_
 
 #### Replikation der Visualisierungen.ipynb
 
-Code der verwendet wurde, um die Visualisierungen der Arbeit zu erstellen. Jede Grafik wird auf Basis der drei "Wortvektordaten" Ordner gebildet, die originalen Word2vec-Modelle sind nicht notwendig. Da in github teilweise Probleme mit der Darstellung von Grafiken auftauchen, wird empfohlen, das Notebook über den <a href="https://nbviewer.jupyter.org/github/tburst/Projekte/blob/master/Masterarbeit/Replikation%20der%20Visualisierungen.ipynb " target="_blank">nbviewer</a> aufzurufen
+Code der verwendet wurde, um die Visualisierungen der Arbeit zu erstellen. Jede Grafik wird auf Basis der drei zur Verfügung gestellten "Wortvektordaten" Ordner gebildet, die originalen Word2vec-Modelle sind nicht notwendig. Da in github teilweise Probleme mit der Darstellung von Grafiken auftauchen, wird empfohlen, das Notebook über den <a href="https://nbviewer.jupyter.org/github/tburst/Projekte/blob/master/Masterarbeit/Replikation%20der%20Visualisierungen.ipynb " target="_blank">nbviewer</a> aufzurufen
 
 
 
