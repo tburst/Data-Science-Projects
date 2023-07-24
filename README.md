@@ -1,13 +1,13 @@
-# Projekte
+# Projects
 
 
-## Denkmale Hessen - Map-Visualisierungen
+## Cultural Heritage - Map-Visualization
 
 Do certain architectural heritage categories occur more frequently in some regions than in others? The Hessian cultural heritage register DenkXWeb was scraped using BeautifulSoup and Selenium and the data stored in an SQL database. The descriptions for every object were then prepared and analyzed via pandas and scikit-learn and visualized in folium maps.
 
 Alternative version [hier](http://nbviewer.jupyter.org/github/tburst/Projekte/blob/master/Denkmale%20Hessen%20-%20Map-Visualisierung/DenkmaleHessen_RegionaleUnterschiede.ipynb)
 
-## Klassifikation politischer Sprache
+## Classification of Political Orientations
 
 Can a machine learning model learn to assign texts to a political orientation only on the basis of the words used in those texts? Using a self-generated text corpus of Bundestag speeches from the election periods 14-18, an SVM model was trained to identify the political direction of the speaker based on uni and bigrams. Subsequently, the generalizability of the model is tested on election programs and newspaper articles.
 
