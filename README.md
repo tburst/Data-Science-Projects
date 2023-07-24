@@ -9,7 +9,7 @@ Alternative version [hier](http://nbviewer.jupyter.org/github/tburst/Projekte/bl
 
 ## Klassifikation politischer Sprache
 
-Can a machine learning model learn to assign texts to a political direction only on the basis of the words used in those texts? Using a self-generated text corpus of Bundestag speeches from the election periods 14-18, an SVM model was trained to identify the political direction of the speaker based on uni and bigrams. Subsequently, the generalizability of the model is tested on election programs and newspaper articles.
+Can a machine learning model learn to assign texts to a political orientation only on the basis of the words used in those texts? Using a self-generated text corpus of Bundestag speeches from the election periods 14-18, an SVM model was trained to identify the political direction of the speaker based on uni and bigrams. Subsequently, the generalizability of the model is tested on election programs and newspaper articles.
 
 [Link](https://github.com/tburst/Projekte/blob/master/Klassifikation%20politischer%20Sprache/Klassikfikation_politischer_Sprache.ipynb)
 
