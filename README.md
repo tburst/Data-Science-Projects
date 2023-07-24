@@ -3,19 +3,19 @@
 
 ## Denkmale Hessen - Map-Visualisierungen
 
-Kommen bestimmte Denkmaltypen in manchen Regionen häufiger vor als in anderen? Das hessische Denkmalverzeichnis DenkXWeb wurde mittels BeautifulSoup und Selenium gescrapet und in eine SQL-Datenbank eingepflegt. Die Begründungstexte wurden dann durch pandas und scikit-learn analysierbar gemacht und in folium Karten visualisiert.
+Do certain architectural heritage categories occur more frequently in some regions than in others? The Hessian cultural heritage register DenkXWeb was scraped using BeautifulSoup and Selenium and the data stored in an SQL database. The descriptions for every object were then prepared and analyzed via pandas and scikit-learn and visualized in folium maps.
 
-Falls die Karten nicht dargestellt werden findet sich eine alternative Version [hier](http://nbviewer.jupyter.org/github/tburst/Projekte/blob/master/Denkmale%20Hessen%20-%20Map-Visualisierung/DenkmaleHessen_RegionaleUnterschiede.ipynb)
+Alternative version [hier](http://nbviewer.jupyter.org/github/tburst/Projekte/blob/master/Denkmale%20Hessen%20-%20Map-Visualisierung/DenkmaleHessen_RegionaleUnterschiede.ipynb)
 
 ## Klassifikation politischer Sprache
 
-Kann ein Machinelearning-Modell nur anhand der verwendeten Wörter lernen, Texte einer politischen Richtung zuzuordnen? Mittels eines selbsterstellten Textkorpus aus Bundestagsreden der Wahlperioden 14-18 wurde einem SVM-Modell anhand von Uni- und Bigrams beigebracht, die politische Richtung des Redners zu identifizieren. Im Anschluss daran wird die Generalisierbarkeit des Modells bei Wahlprogrammen und Zeitungsartikeln getestet.
+Can a machine learning model learn to assign texts to a political direction only on the basis of the words used in those texts? Using a self-generated text corpus of Bundestag speeches from the election periods 14-18, an SVM model was trained to identify the political direction of the speaker based on uni and bigrams. Subsequently, the generalizability of the model is tested on election programs and newspaper articles.
 
-Direkter [Link](https://github.com/tburst/Projekte/blob/master/Klassifikation%20politischer%20Sprache/Klassikfikation_politischer_Sprache.ipynb)
+[Link](https://github.com/tburst/Projekte/blob/master/Klassifikation%20politischer%20Sprache/Klassikfikation_politischer_Sprache.ipynb)
 
 ## Sentiment-Dict
 
-Gibt es eindeutig negative oder positive Wörter im politischen Sprachgebrauch? Durch ein Word2Vec-Modell werden Wörter hinsichtlich ihrer Bedeutung im politischen Kontext abgebildet. Dank zweier Listen vordefinierter Sentimentwörter kann ein SVM-Modell lernen, das Sentiment eines Wortes anhand dessen Wordvektors vorherzusagen. Das Modell wird dann genutzt um neue positive/negative Wörter im politischen Sprachgebrauch zu finden und eigene Sentimentlisten zu erstellen. Abschließend wird diese neue Sentimentressource zur Analyse der Sprache im Deutschen Bundestag verwendet.
+Are there uniquely negative or positive words in political language? Through a Word2Vec model, words are mapped in terms of their meaning in the political context. Thanks to two lists of predefined sentiment words, an SVM model can learn to predict the sentiment of a word based on its word vector. The model is then used to find new positive/negative words in political language usage and to create its own sentiment lists. Finally, this new sentiment resource will be used to analyze the language in the German Bundestag.
 
-Direkter [Link](https://github.com/tburst/Projekte/blob/master/Sentiment-Dict/Erstellung_eines_Sentiment_Dicts.ipynb)
+[Link](https://github.com/tburst/Projekte/blob/master/Sentiment-Dict/Erstellung_eines_Sentiment_Dicts.ipynb)
 
